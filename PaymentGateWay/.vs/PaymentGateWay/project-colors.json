@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4142857b-23f1-40ae-904c-e4e6351894ba": {
+      "ProjectGuid": "4142857b-23f1-40ae-904c-e4e6351894ba",
+      "DisplayName": "PaymentGateWay",
+      "ColorIndex": 0
+    },
+    "84f631a7-d067-42bf-a1ca-c58686729e81": {
+      "ProjectGuid": "84f631a7-d067-42bf-a1ca-c58686729e81",
+      "DisplayName": "GateWay.Application",
+      "ColorIndex": 1
+    },
+    "e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c": {
+      "ProjectGuid": "e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c",
+      "DisplayName": "GateWay.Domain",
+      "ColorIndex": 2
+    },
+    "34e18734-d899-42ec-bddd-d3495ff224dc": {
+      "ProjectGuid": "34e18734-d899-42ec-bddd-d3495ff224dc",
+      "DisplayName": "GateWay.Infrastructure.Persistence",
+      "ColorIndex": 3
+    },
+    "afa572a5-981b-47e3-917e-e8989fa835b1": {
+      "ProjectGuid": "afa572a5-981b-47e3-917e-e8989fa835b1",
+      "DisplayName": "GateWay.Infrastructure.Shared",
+      "ColorIndex": 4
+    },
+    "7431db1a-24d9-42eb-a29f-938e09ad5f54": {
+      "ProjectGuid": "7431db1a-24d9-42eb-a29f-938e09ad5f54",
+      "DisplayName": "GateWay.Infrastructure.Identity",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "52bdcc37-061f-43b7-ab66-bb1bac1ea5a1": {
+      "ProjectGuid": "52bdcc37-061f-43b7-ab66-bb1bac1ea5a1",
+      "DisplayName": "GateWay.Web.API",
+      "ColorIndex": 6
+    },
+    "d82e41d1-9181-49b1-bbcf-6b4b228e3056": {
+      "ProjectGuid": "d82e41d1-9181-49b1-bbcf-6b4b228e3056",
+      "DisplayName": "GateWay.Infrastructure.Shared",
+      "ColorIndex": 7
+    }
+  },
+  "NextColorIndex": 8
+}

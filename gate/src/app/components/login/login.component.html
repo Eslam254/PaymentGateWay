@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <form>
+              <div class="row justify-content-center m-0">
+                <div class="form-outline mb-4">
+                  <input type="email" id="email" name="email" class="form-control" [(ngModel)]="request.email" />
+                  <label class="form-label" for="email">Email address</label>
+                </div>
+
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                  <input type="password" id="password" name="password" class="form-control" [(ngModel)]="request.password" />
+                  <label class="form-label" for="password">Password</label>
+                </div>
+              </div>
+                <button (click)="login()" type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+    </div>
+</div>

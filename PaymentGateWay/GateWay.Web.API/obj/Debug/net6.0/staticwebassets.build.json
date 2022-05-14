@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "qDFbPipalNaDo1IvUOemWJQpcDKYb2nbpU5T/6Za/m4=",
+  "Source": "GateWay.Web.API",
+  "BasePath": "_content/GateWay.Web.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GateWay.Web.API\\wwwroot",
+      "Source": "GateWay.Web.API",
+      "ContentRoot": "D:\\PaymentTask\\PaymentGateWay\\GateWay.Web.API\\wwwroot\\",
+      "BasePath": "_content/GateWay.Web.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

@@ -1,0 +1,1411 @@
+﻿++Solution 'PaymentGateWay' ‎(6 of 6 projects)
+i:{00000000-0000-0000-0000-000000000000}:PaymentGateWay.sln
+++Source
+i:{00000000-0000-0000-0000-000000000000}:Source
+++Core
+i:{70784983-ef01-49e2-9177-40d8c451f4c0}:Core
+++GateWay.Application
+i:{5cb01160-c38d-452e-9811-8649782cb030}:GateWay.Application
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.application\bin\debug\net6.0\gateway.application.dll
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\users\dubai\source\repos\paymentgateway\gateway.application\bin\debug\net6.0\gateway.application.dll
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:c:\users\dubai\source\repos\paymentgateway\gateway.application\bin\debug\net6.0\gateway.application.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.application\bin\debug\net6.0\gateway.application.dll
+++Dependencies
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>494
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>495
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>552
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>440
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:>496
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1341
+++Behaviors
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\behaviors\
+++ValidationBehavior.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\behaviors\validationbehavior.cs
+++DTOs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\dtos\
+++Enums
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\enums\
+++Roles.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\enums\roles.cs
+++Exceptions
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\exceptions\
+++ApiException.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\exceptions\apiexception.cs
+++ValidationException.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\exceptions\validationexception.cs
+++Features
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\features\
+++Payment
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\features\payment\
+++Commands
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\features\payment\commands\
+++Create
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\features\payment\commands\create\
+++CreatePaymentCommand.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\features\payment\commands\create\createpaymentcommand.cs
+++CreatePaymentCommandValidator.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\features\payment\commands\create\createpaymentcommandvalidator.cs
+++Interfaces
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\interfaces\
+++Repositories
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\interfaces\repositories\
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.persistence\repositories\
+++IAccountService.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\interfaces\iaccountservice.cs
+++IAuthenticatedUserService.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\interfaces\iauthenticateduserservice.cs
+++IDateTimeService.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\interfaces\idatetimeservice.cs
+++IEmailService.cs
+++IGenericRepositoryAsync.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\interfaces\igenericrepositoryasync.cs
+++Mapping
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\mapping\
+++GeneralProfile.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\mapping\generalprofile.cs
+++IMapFrom.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\mapping\imapfrom.cs
+++MappingExtensions.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\mapping\mappingextensions.cs
+++MappingProfile.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\mapping\mappingprofile.cs
+++Parameters
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\parameters\
+++RequestParameter.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\parameters\requestparameter.cs
+++Wrappers
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\wrappers\
+++PaginatedList.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\wrappers\paginatedlist.cs
+++Response.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\wrappers\response.cs
+++DependencyInjection.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\dependencyinjection.cs
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\dependencyinjection.cs
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.persistence\dependencyinjection.cs
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.shared\dependencyinjection.cs
+++Analyzers
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:analyzers
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:analyzers
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:analyzers
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:analyzers
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:analyzers
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:analyzers
+++Frameworks
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:frameworks
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:frameworks
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:frameworks
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:frameworks
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:frameworks
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:frameworks
+++Packages
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:packages
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:packages
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:packages
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:packages
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:packages
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:packages
+++Projects
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:projects
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:projects
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:projects
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:projects
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:projects
+++Account
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\dtos\account\
+++Email
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\dtos\email\
+++PaymentDto
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\dtos\paymentdto\
+++IPaymentRepositoryAsync.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\interfaces\repositories\ipaymentrepositoryasync.cs
+++MessagePackAnalyzer
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\users\dubai\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\users\dubai\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:c:\users\dubai\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\users\dubai\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\users\dubai\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:c:\users\dubai\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\users\dubai\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\users\dubai\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:c:\users\dubai\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\users\dubai\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\users\dubai\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:c:\users\dubai\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.5\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.5\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.5\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.5\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.5\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.5\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\microsoft.netcore.app
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\users\dubai\source\repos\paymentgateway\gateway.domain\microsoft.netcore.app
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\microsoft.netcore.app
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.persistence\microsoft.netcore.app
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.shared\microsoft.netcore.app
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\microsoft.netcore.app
+++AutoMapper (11.0.1)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1569
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1478
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1376
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1522
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1429
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1555
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1464
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1362
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1508
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1415
+++FluentValidation (11.0.1)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1564
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1473
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1371
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1517
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1424
+++FluentValidation.AspNetCore (11.0.1)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1560
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1469
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1367
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1513
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1420
+++FluentValidation.DependencyInjectionExtensions (11.0.1)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1552
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1461
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1359
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1505
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1412
+++MailKit (3.2.0)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1580
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1489
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1387
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1533
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1440
+++MediatR.Extensions.Microsoft.DependencyInjection (10.0.1)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1577
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1486
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1384
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1530
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1437
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.5)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1571
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1480
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1378
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1524
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1431
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (6.0.5)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1561
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1470
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1368
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1514
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1421
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.5)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1566
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1475
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1373
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1519
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1426
+++Microsoft.AspNetCore.Mvc.NewtonsoftJson (6.0.5)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1565
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1474
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1372
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1518
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1425
+++Microsoft.AspNetCore.Mvc.Versioning (5.0.0)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1551
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1460
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1358
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1504
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1411
+++Microsoft.EntityFrameworkCore (6.0.5)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1553
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1462
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1360
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1506
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1413
+++Microsoft.EntityFrameworkCore.InMemory (6.0.5)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1572
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1481
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1379
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1525
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1432
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.5)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1554
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1463
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1361
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1507
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1414
+++Microsoft.EntityFrameworkCore.Tools (6.0.5)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1575
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1484
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1382
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1528
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1435
+++Microsoft.Extensions.DependencyInjection (6.0.0)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1567
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1476
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1374
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1520
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1427
+++Microsoft.Extensions.Options.ConfigurationExtensions (6.0.0)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1562
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1471
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1369
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1515
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1422
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.4)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1579
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1488
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1386
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1532
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1439
+++MimeKit (3.2.0)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1576
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1485
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1383
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1529
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1436
+++Newtonsoft.Json (13.0.1)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1558
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1467
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1365
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1511
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1418
+++Serilog.AspNetCore (5.0.0)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1559
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1468
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1366
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1512
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1419
+++Serilog.Enrichers.Environment (2.2.0)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1573
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1482
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1380
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1526
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1433
+++Serilog.Enrichers.Thread (3.1.0)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1570
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1479
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1377
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1523
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1430
+++Serilog.Settings.Configuration (3.3.0)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1578
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1487
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1385
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1531
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1438
+++Serilog.Sinks.MSSqlServer (5.7.0)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1568
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1477
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1375
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1521
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1428
+++Swashbuckle.AspNetCore (6.3.1)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1557
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1466
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1364
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1510
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1417
+++Swashbuckle.AspNetCore.Swagger (6.3.1)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1563
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1472
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1370
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1516
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1423
+++System.IdentityModel.Tokens.Jwt (6.17.0)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1556
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1465
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1363
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1509
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1416
+++System.Text.Json (6.0.4)
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:>1574
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:>1483
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:>1381
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:>1527
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1434
+++GateWay.Domain
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.domain\bin\debug\net6.0\gateway.domain.dll
+i:{5cb01160-c38d-452e-9811-8649782cb030}:GateWay.Domain
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.domain\bin\debug\net6.0\gateway.domain.dll
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\users\dubai\source\repos\paymentgateway\gateway.domain\bin\debug\net6.0\gateway.domain.dll
+++AuthenticationRequest.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\dtos\account\authenticationrequest.cs
+++AuthenticationResponse.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\dtos\account\authenticationresponse.cs
+++ForgotPasswordRequest.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\dtos\account\forgotpasswordrequest.cs
+++RefreshToken.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\dtos\account\refreshtoken.cs
+++RegisterRequest.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\dtos\account\registerrequest.cs
+++UserResponse.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\dtos\account\userresponse.cs
+++VerifyEmailRequest.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\dtos\account\verifyemailrequest.cs
+++EmailRequest.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\dtos\email\emailrequest.cs
+++PaymentRequest.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\dtos\paymentdto\paymentrequest.cs
+++PaymentResponse.cs
+i:{84f631a7-d067-42bf-a1ca-c58686729e81}:c:\users\dubai\source\repos\paymentgateway\gateway.application\dtos\paymentdto\paymentresponse.cs
+++Common
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\users\dubai\source\repos\paymentgateway\gateway.domain\common\
+++AuditableBaseEntity.cs
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\users\dubai\source\repos\paymentgateway\gateway.domain\common\auditablebaseentity.cs
+++BaseEntity.cs
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\users\dubai\source\repos\paymentgateway\gateway.domain\common\baseentity.cs
+++Entities
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\users\dubai\source\repos\paymentgateway\gateway.domain\entities\
+++GenderType.cs
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\users\dubai\source\repos\paymentgateway\gateway.domain\entities\gendertype.cs
+++Payment.cs
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\users\dubai\source\repos\paymentgateway\gateway.domain\entities\payment.cs
+++Settings
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\users\dubai\source\repos\paymentgateway\gateway.domain\settings\
+++JWTSettings.cs
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\users\dubai\source\repos\paymentgateway\gateway.domain\settings\jwtsettings.cs
+++MailSettings.cs
+i:{e4f35dd6-5a2a-41ed-88a8-e0c1ef650c1c}:c:\users\dubai\source\repos\paymentgateway\gateway.domain\settings\mailsettings.cs
+++InfraStructure
+i:{70784983-ef01-49e2-9177-40d8c451f4c0}:InfraStructure
+++GateWay.Infrastructure.Identity
+i:{56088d2a-dbbb-40da-972a-fb17b5158cf6}:GateWay.Infrastructure.Identity
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\bin\debug\net6.0\gateway.infrastructure.identity.dll
+++Context
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\context\
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.persistence\context\
+++IdentityContext.cs
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\context\identitycontext.cs
+++Helpers
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\helpers\
+++AuthenticationHelper.cs
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\helpers\authenticationhelper.cs
+++IpHelper.cs
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\helpers\iphelper.cs
+++Models
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\models\
+++ApplicationUser.cs
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\models\applicationuser.cs
+++UserTypeRole.cs
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\models\usertyperole.cs
+++seeds
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\seeds\
+++DefaultRoles.cs
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\seeds\defaultroles.cs
+++DefaultSuperAdmin.cs
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\seeds\defaultsuperadmin.cs
+++Services
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\services\
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.shared\services\
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\services\
+++AccountService.cs
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\services\accountservice.cs
+++IdentityResultExtensions.cs
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\services\identityresultextensions.cs
+++GateWay.Infrastructure.Persistence
+i:{56088d2a-dbbb-40da-972a-fb17b5158cf6}:GateWay.Infrastructure.Persistence
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.persistence\bin\debug\net6.0\gateway.infrastructure.persistence.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.persistence\bin\debug\net6.0\gateway.infrastructure.persistence.dll
+++Configuration
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.persistence\configuration\
+++PaymentConfiguration.cs
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.persistence\configuration\paymentconfiguration.cs
+++ApplicationDbContext.cs
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.persistence\context\applicationdbcontext.cs
+++GenericRepositoryAsync.cs
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.persistence\repositories\genericrepositoryasync.cs
+++PaymentRepositoryAsync.cs
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.persistence\repositories\paymentrepositoryasync.cs
+++GateWay.Infrastructure.Shared
+i:{56088d2a-dbbb-40da-972a-fb17b5158cf6}:GateWay.Infrastructure.Shared
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.shared\bin\debug\net6.0\gateway.infrastructure.shared.dll
+++DateTimeService.cs
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.shared\services\datetimeservice.cs
+++Microsoft.Extensions.DependencyInjection.Abstractions (6.0.0)
+i:{d82e41d1-9181-49b1-bbcf-6b4b228e3056}:>1597
+++WebApi
+i:{70784983-ef01-49e2-9177-40d8c451f4c0}:WebApi
+++GateWay.Web.API
+i:{cf972422-feb4-4f94-b805-995d497ca2a4}:GateWay.Web.API
+++Connected Services 
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1342
+++Properties
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\properties\
+++wwwroot
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\wwwroot\
+++Controllers
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\controllers\
+++Extensions
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\extensions\
+++Middlewares
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\middlewares\
+++AuthenticatedUserService.cs
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\services\authenticateduserservice.cs
+++appsettings.json
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\appsettings.json
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\appsettings.json
+++Program.cs
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\program.cs
+++Startup.cs
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\startup.cs
+++WeatherForecast.cs
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\weatherforecast.cs
+++No service dependencies discovered
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>1343
+++launchSettings.json
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\properties\launchsettings.json
+++V1
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\controllers\v1\
+++AccountController.cs
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\controllers\accountcontroller.cs
+++BaseApiController.cs
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\controllers\baseapicontroller.cs
+++MetaController.cs
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\controllers\metacontroller.cs
+++WeatherForecastController.cs
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\controllers\weatherforecastcontroller.cs
+++AppExtensions.cs
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\extensions\appextensions.cs
+++ServiceExtensions.cs
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\extensions\serviceextensions.cs
+++ErrorHandlerMiddleware.cs
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\middlewares\errorhandlermiddleware.cs
+++appsettings.Development.json
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\appsettings.development.json
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\microsoft.aspnetcore.app
+++PaymentController.cs
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\controllers\v1\paymentcontroller.cs
+++bin
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\
+++Debug
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\
+++net6.0
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win-arm\lib\net6.0\
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win-arm64\lib\net6.0\
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\
+++cs
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\cs\
+++de
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\de\
+++es
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\es\
+++fr
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\fr\
+++it
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\it\
+++ja
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ja\
+++ko
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ko\
+++pl
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pl\
+++pt-BR
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pt-br\
+++ref
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ref\
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\ref\
+++ru
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ru\
+++runtimes
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\
+++tr
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\tr\
+++zh-Hans
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hans\
+++zh-Hant
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hant\
+++AutoMapper.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\automapper.dll
+++AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\automapper.extensions.microsoft.dependencyinjection.dll
+++BouncyCastle.Crypto.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\bouncycastle.crypto.dll
+++dotnet-aspnet-codegenerator-design.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+++FluentValidation.AspNetCore.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\fluentvalidation.aspnetcore.dll
+++FluentValidation.DependencyInjectionExtensions.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\fluentvalidation.dependencyinjectionextensions.dll
+++FluentValidation.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\fluentvalidation.dll
+++GateWay.Application.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\gateway.application.dll
+++GateWay.Application.pdb
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\gateway.application.pdb
+++GateWay.Domain.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\gateway.domain.dll
+++GateWay.Domain.pdb
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\gateway.domain.pdb
+++GateWay.Infrastructure.Identity.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\gateway.infrastructure.identity.dll
+++GateWay.Infrastructure.Identity.pdb
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\gateway.infrastructure.identity.pdb
+++GateWay.Infrastructure.Persistence.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\gateway.infrastructure.persistence.dll
+++GateWay.Infrastructure.Persistence.pdb
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\gateway.infrastructure.persistence.pdb
+++GateWay.Infrastructure.Shared.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\gateway.infrastructure.shared.dll
+++GateWay.Infrastructure.Shared.pdb
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\gateway.infrastructure.shared.pdb
+++GateWay.Web.API.deps.json
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\gateway.web.api.deps.json
+++GateWay.Web.API.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\gateway.web.api.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\ref\gateway.web.api.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ref\gateway.web.api.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\gateway.web.api.dll
+++GateWay.Web.API.exe
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\gateway.web.api.exe
+++GateWay.Web.API.pdb
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\gateway.web.api.pdb
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\gateway.web.api.pdb
+++GateWay.Web.API.runtimeconfig.json
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\gateway.web.api.runtimeconfig.json
+++GateWay.Web.API.staticwebassets.runtime.json
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\gateway.web.api.staticwebassets.runtime.json
+++Humanizer.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\humanizer.dll
+++MailKit.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\mailkit.dll
+++MediatR.Contracts.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\mediatr.contracts.dll
+++MediatR.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\mediatr.dll
+++MediatR.Extensions.Microsoft.DependencyInjection.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\mediatr.extensions.microsoft.dependencyinjection.dll
+++MessagePack.Annotations.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\messagepack.annotations.dll
+++MessagePack.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\messagepack.dll
+++Microsoft.AspNetCore.Authentication.JwtBearer.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.aspnetcore.authentication.jwtbearer.dll
+++Microsoft.AspNetCore.Cryptography.Internal.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.aspnetcore.cryptography.internal.dll
+++Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.aspnetcore.cryptography.keyderivation.dll
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.aspnetcore.diagnostics.entityframeworkcore.dll
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.aspnetcore.identity.entityframeworkcore.dll
+++Microsoft.AspNetCore.JsonPatch.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.aspnetcore.jsonpatch.dll
+++Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.aspnetcore.mvc.newtonsoftjson.dll
+++Microsoft.AspNetCore.Mvc.Versioning.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.aspnetcore.mvc.versioning.dll
+++Microsoft.AspNetCore.Razor.Language.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.aspnetcore.razor.language.dll
+++Microsoft.Azure.Services.AppAuthentication.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.azure.services.appauthentication.dll
+++Microsoft.Bcl.AsyncInterfaces.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.bcl.asyncinterfaces.dll
+++Microsoft.Build.Locator.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.build.locator.dll
+++Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.codeanalysis.analyzerutilities.dll
+++Microsoft.CodeAnalysis.CSharp.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.codeanalysis.csharp.dll
+++Microsoft.CodeAnalysis.CSharp.Features.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.codeanalysis.csharp.features.dll
+++Microsoft.CodeAnalysis.CSharp.Scripting.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.codeanalysis.csharp.scripting.dll
+++Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.codeanalysis.csharp.workspaces.dll
+++Microsoft.CodeAnalysis.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.codeanalysis.dll
+++Microsoft.CodeAnalysis.Features.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.codeanalysis.features.dll
+++Microsoft.CodeAnalysis.Razor.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.codeanalysis.razor.dll
+++Microsoft.CodeAnalysis.Scripting.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.codeanalysis.scripting.dll
+++Microsoft.CodeAnalysis.VisualBasic.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.codeanalysis.visualbasic.dll
+++Microsoft.CodeAnalysis.VisualBasic.Features.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.codeanalysis.visualbasic.features.dll
+++Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.codeanalysis.visualbasic.workspaces.dll
+++Microsoft.CodeAnalysis.Workspaces.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.codeanalysis.workspaces.dll
+++Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.codeanalysis.workspaces.msbuild.dll
+++Microsoft.Data.SqlClient.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.data.sqlclient.dll
+++Microsoft.DiaSymReader.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.diasymreader.dll
+++Microsoft.DotNet.Scaffolding.Shared.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.dotnet.scaffolding.shared.dll
+++Microsoft.EntityFrameworkCore.Abstractions.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.entityframeworkcore.abstractions.dll
+++Microsoft.EntityFrameworkCore.Design.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.entityframeworkcore.design.dll
+++Microsoft.EntityFrameworkCore.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.entityframeworkcore.dll
+++Microsoft.EntityFrameworkCore.InMemory.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.entityframeworkcore.inmemory.dll
+++Microsoft.EntityFrameworkCore.Relational.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.entityframeworkcore.relational.dll
+++Microsoft.EntityFrameworkCore.SqlServer.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.entityframeworkcore.sqlserver.dll
+++Microsoft.Extensions.Caching.Memory.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.extensions.caching.memory.dll
+++Microsoft.Extensions.DependencyModel.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.extensions.dependencymodel.dll
+++Microsoft.Extensions.Identity.Core.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.extensions.identity.core.dll
+++Microsoft.Extensions.Identity.Stores.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.extensions.identity.stores.dll
+++Microsoft.Identity.Client.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.identity.client.dll
+++Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.identitymodel.clients.activedirectory.dll
+++Microsoft.IdentityModel.JsonWebTokens.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.identitymodel.jsonwebtokens.dll
+++Microsoft.IdentityModel.Logging.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.identitymodel.logging.dll
+++Microsoft.IdentityModel.Protocols.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.identitymodel.protocols.dll
+++Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.identitymodel.protocols.openidconnect.dll
+++Microsoft.IdentityModel.Tokens.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.identitymodel.tokens.dll
+++Microsoft.OpenApi.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.openapi.dll
+++Microsoft.VisualStudio.Debugger.Contracts.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.visualstudio.debugger.contracts.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.visualstudio.web.codegeneration.core.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.visualstudio.web.codegeneration.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.visualstudio.web.codegeneration.entityframeworkcore.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.visualstudio.web.codegeneration.templating.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.visualstudio.web.codegeneration.utils.dll
+++Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.visualstudio.web.codegenerators.mvc.dll
+++Microsoft.Win32.SystemEvents.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\microsoft.win32.systemevents.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\microsoft.win32.systemevents.dll
+++MimeKit.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\mimekit.dll
+++Newtonsoft.Json.Bson.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\newtonsoft.json.bson.dll
+++Newtonsoft.Json.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\newtonsoft.json.dll
+++NuGet.Common.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\nuget.common.dll
+++NuGet.Configuration.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\nuget.configuration.dll
+++NuGet.DependencyResolver.Core.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\nuget.dependencyresolver.core.dll
+++NuGet.Frameworks.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\nuget.frameworks.dll
+++NuGet.LibraryModel.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\nuget.librarymodel.dll
+++NuGet.Packaging.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\nuget.packaging.dll
+++NuGet.ProjectModel.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\nuget.projectmodel.dll
+++NuGet.Protocol.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\nuget.protocol.dll
+++NuGet.Versioning.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\nuget.versioning.dll
+++Serilog.AspNetCore.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\serilog.aspnetcore.dll
+++Serilog.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\serilog.dll
+++Serilog.Enrichers.Environment.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\serilog.enrichers.environment.dll
+++Serilog.Enrichers.Thread.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\serilog.enrichers.thread.dll
+++Serilog.Extensions.Hosting.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\serilog.extensions.hosting.dll
+++Serilog.Extensions.Logging.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\serilog.extensions.logging.dll
+++Serilog.Formatting.Compact.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\serilog.formatting.compact.dll
+++Serilog.Settings.Configuration.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\serilog.settings.configuration.dll
+++Serilog.Sinks.Console.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\serilog.sinks.console.dll
+++Serilog.Sinks.Debug.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\serilog.sinks.debug.dll
+++Serilog.Sinks.File.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\serilog.sinks.file.dll
+++Serilog.Sinks.MSSqlServer.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\serilog.sinks.mssqlserver.dll
+++Serilog.Sinks.PeriodicBatching.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\serilog.sinks.periodicbatching.dll
+++Swashbuckle.AspNetCore.Swagger.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\swashbuckle.aspnetcore.swagger.dll
+++Swashbuckle.AspNetCore.SwaggerGen.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\swashbuckle.aspnetcore.swaggergen.dll
+++Swashbuckle.AspNetCore.SwaggerUI.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\swashbuckle.aspnetcore.swaggerui.dll
+++System.Composition.AttributedModel.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\system.composition.attributedmodel.dll
+++System.Composition.Convention.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\system.composition.convention.dll
+++System.Composition.Hosting.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\system.composition.hosting.dll
+++System.Composition.Runtime.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\system.composition.runtime.dll
+++System.Composition.TypedParts.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\system.composition.typedparts.dll
+++System.Configuration.ConfigurationManager.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\system.configuration.configurationmanager.dll
+++System.Drawing.Common.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\system.drawing.common.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.0\system.drawing.common.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\system.drawing.common.dll
+++System.IdentityModel.Tokens.Jwt.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\system.identitymodel.tokens.jwt.dll
+++System.Runtime.Caching.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\system.runtime.caching.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\system.runtime.caching.dll
+++System.Security.Cryptography.ProtectedData.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\system.security.cryptography.protecteddata.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\system.security.cryptography.protecteddata.dll
+++System.Security.Permissions.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\system.security.permissions.dll
+++System.Text.Json.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\system.text.json.dll
+++System.Windows.Extensions.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\system.windows.extensions.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\system.windows.extensions.dll
+++Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\cs\microsoft.codeanalysis.csharp.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\de\microsoft.codeanalysis.csharp.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\fr\microsoft.codeanalysis.csharp.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\it\microsoft.codeanalysis.csharp.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\es\microsoft.codeanalysis.csharp.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ja\microsoft.codeanalysis.csharp.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ko\microsoft.codeanalysis.csharp.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pt-br\microsoft.codeanalysis.csharp.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pl\microsoft.codeanalysis.csharp.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ru\microsoft.codeanalysis.csharp.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\tr\microsoft.codeanalysis.csharp.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.csharp.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.csharp.features.resources.dll
+++Microsoft.CodeAnalysis.CSharp.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\cs\microsoft.codeanalysis.csharp.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\de\microsoft.codeanalysis.csharp.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\es\microsoft.codeanalysis.csharp.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\fr\microsoft.codeanalysis.csharp.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ja\microsoft.codeanalysis.csharp.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ko\microsoft.codeanalysis.csharp.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\it\microsoft.codeanalysis.csharp.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pt-br\microsoft.codeanalysis.csharp.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pl\microsoft.codeanalysis.csharp.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ru\microsoft.codeanalysis.csharp.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\tr\microsoft.codeanalysis.csharp.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.csharp.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.csharp.resources.dll
+++Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\es\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\cs\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\de\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\fr\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\it\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pl\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ja\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pt-br\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ko\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ru\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\tr\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.csharp.scripting.resources.dll
+++Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\cs\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\de\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\es\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\fr\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\it\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ja\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ko\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pl\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pt-br\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ru\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\tr\microsoft.codeanalysis.csharp.workspaces.resources.dll
+++Microsoft.CodeAnalysis.Features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\cs\microsoft.codeanalysis.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\es\microsoft.codeanalysis.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\de\microsoft.codeanalysis.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\fr\microsoft.codeanalysis.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\it\microsoft.codeanalysis.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ja\microsoft.codeanalysis.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ko\microsoft.codeanalysis.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pt-br\microsoft.codeanalysis.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\tr\microsoft.codeanalysis.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pl\microsoft.codeanalysis.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ru\microsoft.codeanalysis.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.features.resources.dll
+++Microsoft.CodeAnalysis.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\de\microsoft.codeanalysis.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\cs\microsoft.codeanalysis.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\fr\microsoft.codeanalysis.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\es\microsoft.codeanalysis.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\it\microsoft.codeanalysis.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ja\microsoft.codeanalysis.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pl\microsoft.codeanalysis.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ru\microsoft.codeanalysis.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pt-br\microsoft.codeanalysis.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ko\microsoft.codeanalysis.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\tr\microsoft.codeanalysis.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.resources.dll
+++Microsoft.CodeAnalysis.Scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\de\microsoft.codeanalysis.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\cs\microsoft.codeanalysis.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\es\microsoft.codeanalysis.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\it\microsoft.codeanalysis.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ja\microsoft.codeanalysis.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\fr\microsoft.codeanalysis.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ko\microsoft.codeanalysis.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pl\microsoft.codeanalysis.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pt-br\microsoft.codeanalysis.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ru\microsoft.codeanalysis.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\tr\microsoft.codeanalysis.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.scripting.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.scripting.resources.dll
+++Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\cs\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\de\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\fr\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\es\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\it\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ja\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pl\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ko\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pt-br\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\tr\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ru\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.visualbasic.features.resources.dll
+++Microsoft.CodeAnalysis.VisualBasic.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\cs\microsoft.codeanalysis.visualbasic.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\es\microsoft.codeanalysis.visualbasic.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ja\microsoft.codeanalysis.visualbasic.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\it\microsoft.codeanalysis.visualbasic.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\de\microsoft.codeanalysis.visualbasic.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ko\microsoft.codeanalysis.visualbasic.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pl\microsoft.codeanalysis.visualbasic.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pt-br\microsoft.codeanalysis.visualbasic.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ru\microsoft.codeanalysis.visualbasic.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\fr\microsoft.codeanalysis.visualbasic.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.visualbasic.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.visualbasic.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\tr\microsoft.codeanalysis.visualbasic.resources.dll
+++Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\de\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\es\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\fr\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ja\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ko\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\it\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\cs\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pl\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pt-br\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ru\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\tr\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+++Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\cs\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\es\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\de\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\fr\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\it\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ja\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pl\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ko\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pt-br\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ru\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\tr\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+++Microsoft.CodeAnalysis.Workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\cs\microsoft.codeanalysis.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\fr\microsoft.codeanalysis.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\it\microsoft.codeanalysis.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\de\microsoft.codeanalysis.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ko\microsoft.codeanalysis.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ja\microsoft.codeanalysis.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pl\microsoft.codeanalysis.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\es\microsoft.codeanalysis.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\ru\microsoft.codeanalysis.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\pt-br\microsoft.codeanalysis.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\tr\microsoft.codeanalysis.workspaces.resources.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.workspaces.resources.dll
+++unix
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\unix\
+++win
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win\
+++win-arm
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win-arm\
+++win-arm64
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win-arm64\
+++win-x64
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win-x64\
+++win-x86
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win-x86\
+++lib
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\unix\lib\
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win\lib\
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win-arm\lib\
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win-arm64\lib\
+++native
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win-arm\native\
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win-arm64\native\
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win-x64\native\
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win-x86\native\
+++netcoreapp3.0
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.0\
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\
+++netcoreapp3.1
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.1\
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.1\
+++netstandard2.0
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\
+++Microsoft.Data.SqlClient.SNI.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win-arm\native\microsoft.data.sqlclient.sni.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win-x64\native\microsoft.data.sqlclient.sni.dll
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win-x86\native\microsoft.data.sqlclient.sni.dll
+++dotnet-aspnet-codegenerator-design.exe
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+++obj
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\
+++GateWay.Web.API.csproj.nuget.dgspec.json
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\gateway.web.api.csproj.nuget.dgspec.json
+++GateWay.Web.API.csproj.nuget.g.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\gateway.web.api.csproj.nuget.g.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\gateway.web.api.csproj.nuget.g.props
+++GateWay.Web.API.csproj.nuget.g.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\gateway.web.api.csproj.nuget.g.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\gateway.web.api.csproj.nuget.g.targets
+++project.assets.json
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\project.assets.json
+++project.nuget.cache
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\project.nuget.cache
+++staticwebassets.pack.sentinel
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\staticwebassets.pack.sentinel
+++staticwebassets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\staticwebassets\
+++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
+++apphost.exe
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\apphost.exe
+++GateWay.Web.API.AssemblyInfo.cs
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\gateway.web.api.assemblyinfo.cs
+++GateWay.Web.API.AssemblyInfoInputs.cache
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\gateway.web.api.assemblyinfoinputs.cache
+++GateWay.Web.API.assets.cache
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\gateway.web.api.assets.cache
+++GateWay.Web.API.csproj.AssemblyReference.cache
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\gateway.web.api.csproj.assemblyreference.cache
+++GateWay.Web.API.csproj.CopyComplete
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\gateway.web.api.csproj.copycomplete
+++GateWay.Web.API.csproj.CoreCompileInputs.cache
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\gateway.web.api.csproj.corecompileinputs.cache
+++GateWay.Web.API.csproj.FileListAbsolute.txt
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\gateway.web.api.csproj.filelistabsolute.txt
+++GateWay.Web.API.GeneratedMSBuildEditorConfig.editorconfig
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\gateway.web.api.generatedmsbuildeditorconfig.editorconfig
+++GateWay.Web.API.genruntimeconfig.cache
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\gateway.web.api.genruntimeconfig.cache
+++GateWay.Web.API.GlobalUsings.g.cs
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\gateway.web.api.globalusings.g.cs
+++GateWay.Web.API.MvcApplicationPartsAssemblyInfo.cache
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\gateway.web.api.mvcapplicationpartsassemblyinfo.cache
+++staticwebassets.build.json
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\staticwebassets.build.json
+++staticwebassets.development.json
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\staticwebassets.development.json
+++Imports
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:>3109
+++Sdk.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web\sdk\sdk.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.illink.tasks\sdk\sdk.props
+++Sdk.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web\sdk\sdk.targets
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.105\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.105\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.105\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.105\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\sdk\sdk.props
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.105\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.105\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.105\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.105\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\sdk\sdk.targets
+++Microsoft.Common.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.props
+++Microsoft.NET.Sdk.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.props
+++Sdk.Razor.CurrentVersion.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.props
+++Microsoft.NET.Sdk.Web.ProjectSystem.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.props
+++Microsoft.NET.Sdk.Publish.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.props
+++Microsoft.NET.Sdk.BeforeCommon.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.beforecommon.targets
+++Microsoft.CSharp.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.targets
+++Microsoft.NET.Sdk.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.targets
+++Microsoft.NET.Compatibility.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.targets
+++NuGet.Build.Tasks.Pack.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
+++Sdk.Razor.CurrentVersion.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.targets
+++Microsoft.NET.Sdk.Web.ProjectSystem.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.targets
+++Microsoft.NET.Sdk.Publish.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.targets
+++Microsoft.NuGet.ImportBefore.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.nuget.importbefore.props
+++NuGet.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.props
+++Microsoft.NET.Sdk.DefaultItems.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.props
+++Microsoft.NET.Sdk.ImportWorkloads.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.props
+++Microsoft.NET.SupportedTargetFrameworks.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.supportedtargetframeworks.props
+++Microsoft.NET.SupportedPlatforms.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.supportedplatforms.props
+++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.windowssdksupportedtargetplatforms.props
+++Microsoft.NET.Sdk.CSharp.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.props
+++Microsoft.NET.ILLink.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.illink.props
+++Microsoft.NET.Compatibility.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.props
+++Microsoft.NET.PackTool.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.props
+++Microsoft.NET.PackProjectTool.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.props
+++Microsoft.NET.Sdk.WindowsDesktop.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.props
+++Microsoft.NET.Windows.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.windows.props
+++Sdk.Razor.StaticAssets.ProjectSystem.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\sdk\sdk.razor.staticassets.projectsystem.props
+++Microsoft.TypeScript.Default.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.default.props
+++Microsoft.NET.Sdk.Web.DefaultItems.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.defaultitems.props
+++Microsoft.NET.DefaultAssemblyInfo.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.defaultassemblyinfo.targets
+++Microsoft.NET.DefaultOutputPaths.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.defaultoutputpaths.targets
+++Microsoft.NET.Sdk.ImportPublishProfile.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importpublishprofile.targets
+++Microsoft.NET.TargetFrameworkInference.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.targetframeworkinference.targets
+++Microsoft.NET.Sdk.Razor.BeforeCommon.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.beforecommon.targets
+++Microsoft.NET.Sdk.ImportWorkloads.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.targets
+++Microsoft.NET.RuntimeIdentifierInference.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.runtimeidentifierinference.targets
+++Microsoft.NET.EolTargetFrameworks.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.eoltargetframeworks.targets
+++Microsoft.NET.NuGetOfflineCache.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.nugetofflinecache.targets
+++Microsoft.Managed.Before.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.before.targets
+++Microsoft.CSharp.CurrentVersion.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.currentversion.targets
+++Microsoft.Managed.After.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.after.targets
+++Microsoft.NET.Sdk.Common.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.common.targets
+++Microsoft.PackageDependencyResolution.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.packagedependencyresolution.targets
+++Microsoft.NET.Sdk.DefaultItems.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.targets
+++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.frameworkreferenceresolution.targets
+++Microsoft.NET.Sdk.Shared.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.shared.targets
+++Microsoft.NET.DisableStandardFrameworkResolution.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.disablestandardframeworkresolution.targets
+++Microsoft.NET.DesignerSupport.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.designersupport.targets
+++Microsoft.NET.GenerateAssemblyInfo.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.generateassemblyinfo.targets
+++Microsoft.NET.GenerateGlobalUsings.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.generateglobalusings.targets
+++Microsoft.NET.GenerateSupportedRuntime.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.generatesupportedruntime.targets
+++Microsoft.NET.ComposeStore.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.composestore.targets
+++Microsoft.NET.CrossGen.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.crossgen.targets
+++Microsoft.NET.ObsoleteReferences.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.obsoletereferences.targets
+++Microsoft.NET.Publish.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.publish.targets
+++Microsoft.NET.PackTool.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.targets
+++Microsoft.NET.PackProjectTool.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.targets
+++Microsoft.NET.PreserveCompilationContext.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.preservecompilationcontext.targets
+++Microsoft.NET.ConflictResolution.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.conflictresolution.targets
+++Microsoft.NET.Sdk.CSharp.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
+++Microsoft.NET.ILLink.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
+++Microsoft.NET.Compatibility.Common.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
+++Microsoft.NET.Sdk.Razor.Configuration.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.configuration.targets
+++Microsoft.NET.Sdk.Razor.CodeGeneration.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.codegeneration.targets
+++Microsoft.NET.Sdk.Razor.SourceGenerators.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.sourcegenerators.targets
+++Microsoft.NET.Sdk.Razor.StaticWebAssets.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.staticwebassets.targets
+++Microsoft.NET.Sdk.Razor.ScopedCss.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.scopedcss.targets
+++Microsoft.NET.Sdk.Razor.JSModules.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.jsmodules.targets
+++Microsoft.NET.Sdk.Razor.GenerateAssemblyInfo.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.generateassemblyinfo.targets
+++Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.mvcapplicationpartsdiscovery.targets
+++Microsoft.NET.Sdk.Razor.DesignTime.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\razor\microsoft.net.sdk.razor.designtime.targets
+++Microsoft.TypeScript.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files (x86)\microsoft sdks\typescript\4.2\build\microsoft.typescript.targets
+++Microsoft.TypeScript.DotNetCore.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.dotnetcore.targets
+++Microsoft.Web.Designtime.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed.web\microsoft.web.designtime.targets
+++Default.pubxml
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\targets\publishprofiles\default.pubxml
+++Microsoft.NET.Sdk.Publish.ComputeFiles.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\targets\computetargets\microsoft.net.sdk.publish.computefiles.targets
+++Microsoft.NET.Sdk.Publish.FilterFiles.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.filterfiles.targets
+++Microsoft.NET.Sdk.Publish.CopyFiles.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.copyfiles.targets
+++Microsoft.NET.Sdk.Publish.TransformFiles.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\targets\transformtargets\microsoft.net.sdk.publish.transformfiles.targets
+++Microsoft.NET.Sdk.Publish.FileSystem.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\targets\publishtargets\microsoft.net.sdk.publish.filesystem.targets
+++Microsoft.NET.Sdk.DotNetCLITool.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.publish\targets\dotnetclitooltargets\microsoft.net.sdk.dotnetclitool.targets
+++Microsoft.Extensions.ApiDescription.Server.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0\build\microsoft.extensions.apidescription.server.props
+++Swashbuckle.AspNetCore.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\.nuget\packages\swashbuckle.aspnetcore\6.3.1\build\swashbuckle.aspnetcore.props
+++Microsoft.EntityFrameworkCore.Design.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\.nuget\packages\microsoft.entityframeworkcore.design\6.0.5\build\net6.0\microsoft.entityframeworkcore.design.props
+++Microsoft.NuGet.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\nuget\17.0\microsoft.nuget.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\microsoft.netcoresdk.bundledversions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.wpf.props
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android)
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios)
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst)
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos)
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui)
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos)
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten)
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain)
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain\workloadmanifest.targets
+++Microsoft.CSharp.Core.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.csharp.core.targets
+++Microsoft.CSharp.DesignTime.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.csharp.designtime.targets
+++Microsoft.Common.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.targets
+++Microsoft.ServiceModel.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.servicemodel.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.servicemodel.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\microsoft.netcoresdk.bundledclitools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\targets\microsoft.net.defaultpackageconflictoverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
+++Microsoft.CodeAnalysis.NetAnalyzers.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
+++04.02.04.00.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files (x86)\microsoft sdks\typescript\versions\04.02.04.00.props
+++Microsoft.NET.ILLink.Tasks.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
+++System.Windows.Forms.Analyzers.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\dotnet\sdk\6.0.105\sdks\microsoft.net.sdk.windowsdesktop\targets\system.windows.forms.analyzers.props
+++Microsoft.Managed.Core.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.targets
+++Microsoft.Managed.DesignTime.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
+++Microsoft.Common.CurrentVersion.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
+++Microsoft.Managed.Core.CurrentVersions.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
+++GateWay.Web.API.csproj.user
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\gateway.web.api.csproj.user
+++Microsoft.NET.props
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.net.props
+++Microsoft.CodeAnalysis.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\codeanalysis\microsoft.codeanalysis.targets
+++Microsoft.Xaml.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.xaml.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.xaml.targets
+++Microsoft.WorkflowBuildExtensions.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.workflowbuildextensions.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.workflowbuildextensions.targets
+++Microsoft.TeamTest.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\teamtest\microsoft.teamtest.targets
+++NuGet.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.targets
+++Microsoft.Docker.ImportAfter.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.docker.importafter.targets
+++Microsoft.NET.Build.Extensions.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.net.build.extensions.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\microsoft.net.build.extensions\microsoft.net.build.extensions.targets
+++Microsoft.NuGet.ImportAfter.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.nuget.importafter.targets
+++Microsoft.VisualStudio.Azure.Fabric.ServiceProject.ImportAfter.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.visualstudio.azure.fabric.serviceproject.importafter.targets
+++Microsoft.Web.ImportAfter.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.web.importafter.targets
+++System.Text.Json.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\.nuget\packages\system.text.json\6.0.4\build\system.text.json.targets
+++Microsoft.Extensions.ApiDescription.Server.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0\build\microsoft.extensions.apidescription.server.targets
+++Microsoft.Docker.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\sdks\microsoft.docker.sdk\build\microsoft.docker.targets
+++Microsoft.VisualStudio.Azure.Fabric.ServiceProject.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\service fabric tools\microsoft.visualstudio.azure.fabric.serviceproject.targets
+++Microsoft.Web.IISSupport.targets
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed.web\microsoft.web.iissupport.targets
+++GateWay.Web.API.MvcApplicationPartsAssemblyInfo.cs
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\obj\debug\net6.0\gateway.web.api.mvcapplicationpartsassemblyinfo.cs
+++GateWay.WebAPI.xml
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\gateway.webapi.xml
+i:{52bdcc37-061f-43b7-ab66-bb1bac1ea5a1}:c:\users\dubai\source\repos\paymentgateway\gateway.web.api\bin\debug\net6.0\gateway.webapi.xml
+++Migrations
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\migrations\
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.persistence\migrations\
+++20220514090953_intial.cs
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\migrations\20220514090953_intial.cs
+++IdentityContextModelSnapshot.cs
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\migrations\identitycontextmodelsnapshot.cs
+++20220514090953_intial.Designer.cs
+i:{7431db1a-24d9-42eb-a29f-938e09ad5f54}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.identity\migrations\20220514090953_intial.designer.cs
+++20220514091411_intial.cs
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.persistence\migrations\20220514091411_intial.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.persistence\migrations\applicationdbcontextmodelsnapshot.cs
+++20220514091411_intial.Designer.cs
+i:{34e18734-d899-42ec-bddd-d3495ff224dc}:c:\users\dubai\source\repos\paymentgateway\gateway.infrastructure.persistence\migrations\20220514091411_intial.designer.cs

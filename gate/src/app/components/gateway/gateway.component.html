@@ -1,0 +1,81 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <form [formGroup]="form"  (ngSubmit)="ReactiveFormSubmit()">
+
+              <div class="form-group">
+                <label for="cardHolder">Card Holder</label>
+                <input type="text" name="cardHolder" placeholder="Card Holder" formControlName="cardHolder" [ngClass]="{ 'is-invalid': submitted && paymentFormControl.cardHolder.errors }" class="form-control">
+
+                <div *ngIf="paymentFormControl.cardHolder.touched && !paymentFormControl.cardHolder.valid" class="invalid-feedback">
+                  <div *ngIf="paymentFormControl.cardHolder.errors?.required">cardHolder is required</div>
+              </div>
+              </div>
+
+              <div class="form-group">
+                <label for="procesingCode">procesing Code</label>
+                <input type="text" name="procesingCode" placeholder="procesing Code" formControlName="procesingCode" [ngClass]="{ 'is-invalid': submitted && paymentFormControl.procesingCode.errors }" class="form-control">
+
+                <div *ngIf="paymentFormControl.procesingCode.touched && !paymentFormControl.procesingCode.valid" class="invalid-feedback">
+                  <div *ngIf="paymentFormControl.procesingCode.errors?.required">procesingCode is required</div>
+              </div>
+              </div>
+
+
+              <div class="form-group">
+
+                <label for="systemTraceNr"> System TraceNr </label>
+                <input type="text" name="systemTraceNr" placeholder="System TraceNr" formControlName="systemTraceNr" [ngClass]="{ 'is-invalid': submitted && paymentFormControl.systemTraceNr.errors }" class="form-control">
+
+                <div *ngIf="paymentFormControl.systemTraceNr.touched && !paymentFormControl.systemTraceNr.valid" class="invalid-feedback">
+                  <div *ngIf="paymentFormControl.systemTraceNr.errors?.required">SystemTraceNr is required</div>
+              </div>
+
+              </div>
+
+
+              <div class="form-group">
+
+                <label for="functionCode">functionCode</label>
+                <input type="text" name="functionCode" placeholder="function Code" formControlName="functionCode" [ngClass]="{ 'is-invalid': submitted && paymentFormControl.functionCode.errors }" class="form-control">
+
+                <div *ngIf="paymentFormControl.functionCode.touched && !paymentFormControl.functionCode.valid" class="invalid-feedback">
+                  <div *ngIf="paymentFormControl.functionCode.errors?.required">functionCode is required</div>
+              </div>
+
+              </div>
+
+
+              <div class="form-group">
+
+                <label for="cardNumber">Card Number</label>
+                <input type="text" name="cardNumber" placeholder="Card Number" formControlName="cardNumber" [ngClass]="{ 'is-invalid': submitted && paymentFormControl.cardNumber.errors }" class="form-control">
+
+                <div *ngIf="paymentFormControl.cardNumber.touched && !paymentFormControl.cardNumber.valid" class="invalid-feedback">
+                  <div *ngIf="paymentFormControl.cardNumber.errors?.required">cardNumber is required</div>
+              </div>
+
+              </div>
+
+              <div class="form-group">
+                <label for="amountTrxn">AmountTrxn</label>
+                <input type="text" name="amountTrxn" placeholder="amountTrxn" formControlName="amountTrxn" [ngClass]="{ 'is-invalid': submitted && paymentFormControl.amountTrxn.errors }" class="form-control">
+                <div *ngIf="paymentFormControl.amountTrxn.touched && !paymentFormControl.amountTrxn.valid" class="invalid-feedback">
+                  <div *ngIf="paymentFormControl.amountTrxn.errors?.required">amountTrxn is required</div>
+              </div>
+              </div>
+
+              <div class="form-group">
+                <label for="currencyCode">Currency Code</label>
+                <input type="text" name="currencyCode" placeholder="currencyCode" formControlName="currencyCode" [ngClass]="{ 'is-invalid': submitted && paymentFormControl.currencyCode.errors }" class="form-control">
+                <div *ngIf="paymentFormControl.currencyCode.touched && !paymentFormControl.currencyCode.valid" class="invalid-feedback">
+                  <div *ngIf="paymentFormControl.currencyCode.errors?.required">currencyCode is required</div>
+              </div>
+              </div>
+
+
+                <button  type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+    </div>
+</div>
